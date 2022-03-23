@@ -16,7 +16,7 @@ previous single-stage methods like
 ![alt text](./res/accuracy_latency.png)
 
 This repository contains the official PyTorch implementation for the paper: <br>
-[Rethinking Keypoint Representations: Modeling Keypoints and Poses as Objects for Multi-Person Human Pose Estimation](https://arxiv.org/abs/2111.08557).
+Rethinking Keypoint Representations: Modeling Keypoints and Poses as Objects for Multi-Person Human Pose Estimation.
 
 Our code was forked from ultralytics/yolov5 at commit [5487451](https://github.com/ultralytics/yolov5/tree/5487451).
 
@@ -114,7 +114,7 @@ To create the GIF above:<br>
 ---
 
 #### Web Demo
-A [web demo](https://huggingface.co/spaces/akhaliq/Kapao) was integrated to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio) (credit to [@AK391](https://github.com/AK391)). 
+A web demo was integrated to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio) (credit to [@AK391](https://github.com/AK391)). 
 It uses KAPAO-S to run CPU inference on short video clips.
 
 
@@ -260,39 +260,4 @@ python train.py \
 --name train \
 --workers 128 \
 --noval
-```
-
-## Acknowledgements
-This work was supported in part by Compute Canada, the Canada Research Chairs Program, 
-the Natural Sciences and Engineering Research Council of Canada, 
-a Microsoft Azure Grant, and an NVIDIA Hardware Grant.
-
-If you find this repo is helpful in your research, please cite our paper:
-```
-@article{mcnally2021kapao,
-  title={Rethinking Keypoint Representations: Modeling Keypoints and Poses as Objects for Multi-Person Human Pose Estimation},
-  author={McNally, William and Vats, Kanav and Wong, Alexander and McPhee, John},
-  journal={arXiv preprint arXiv:2111.08557},
-  year={2021}
-}
-```
-Please also consider citing our previous works:
-```
-@inproceedings{mcnally2021deepdarts,
-  title={DeepDarts: Modeling Keypoints as Objects for Automatic Scorekeeping in Darts using a Single Camera},
-  author={McNally, William and Walters, Pascale and Vats, Kanav and Wong, Alexander and McPhee, John},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={4547--4556},
-  year={2021}
-}
-
-@article{mcnally2021evopose2d,
-  title={EvoPose2D: Pushing the Boundaries of 2D Human Pose Estimation Using Accelerated Neuroevolution With Weight Transfer},
-  author={McNally, William and Vats, Kanav and Wong, Alexander and McPhee, John},
-  journal={IEEE Access},
-  volume={9},
-  pages={139403--139414},
-  year={2021},
-  publisher={IEEE}
-}
 ```
