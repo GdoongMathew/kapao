@@ -55,7 +55,7 @@ if __name__ == '__main__':
     parser.add_argument('--csv', action='store_true', help='write results so csv file')
 
     # model options
-    parser.add_argument('--data', type=str, default='data/coco-kp.yaml')
+    parser.add_argument('--data', type=str, default='../data/coco-kp.yaml')
     parser.add_argument('--imgsz', type=int, default=1024)
     parser.add_argument('--weights', default='kapao_s_coco.pt')
     parser.add_argument('--device', default='', help='cuda device, i.e. 0 or cpu')
